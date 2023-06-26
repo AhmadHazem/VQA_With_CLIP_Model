@@ -51,6 +51,17 @@ The model used for this project is based on the ViT-L/14@336px architecture, wit
 
 ## Dataset
 
+The dataset used for this project is the VizWiz-VQA dataset, which contains 20,500 image/question pairs. Each image has its corresponding question and 10 answers to this question. The dataset is divided as follows:
+
+-   Training Set:
+
+    -   Number of image/question pairs: 20,523
+    -   Number of answer/answer confidence pairs: 205,230
+
+-   Validation Set:
+    -   Number of image/question pairs: 4,319
+    -   Number of answer/answer confidence pairs: 43,190
+
 You can mount the data instantly without any hassle from [Kaggle](https://www.kaggle.com/datasets/lhanhsin/vizwiz) .
 
 ### Dataset Files
